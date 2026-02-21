@@ -26,3 +26,6 @@ form.addEventListener("submit", function(event) {
         form.reset();
     }
 });
+function natureMotivation() {
+    alert("Nature is calling 🌄 Take a walk, hike a trail, explore the outdoors!");
+}
