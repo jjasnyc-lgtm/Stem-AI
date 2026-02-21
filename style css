@@ -1,0 +1,71 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a, nav button {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    padding: 60px;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+/* SERVICES */
+.card-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #ddd;
+    padding: 30px;
+    flex: 1;
+    text-align: center;
+}
+
+/* CONTACT */
+form {
+    padding: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 200px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
+
+/* DARK MODE */
+.dark {
+    background: #111;
+    color: white;
+}
