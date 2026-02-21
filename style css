@@ -99,3 +99,61 @@ footer {
 .fact-card:hover {
     transform: translateY(-5px);
 }
+/* NATURE SECTION */
+#nature {
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+}
+
+#nature h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.nature-text {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.mountain-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.mountain-gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+.mountain-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.nature-call {
+    max-width: 600px;
+    margin: auto;
+}
+
+.nature-call button {
+    padding: 12px 25px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.nature-call button:hover {
+    background: #1b5e20;
+}
